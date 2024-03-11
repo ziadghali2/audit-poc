@@ -44,6 +44,6 @@ contract caller {
     function callConstract() public {
         // just test override is works
         BSCBridge bridge = new BSCBridge(address(this));
-        bridge.deposit(10);
+        bridge.deposit(100);
     }
 }
