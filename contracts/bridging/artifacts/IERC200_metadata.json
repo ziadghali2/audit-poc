@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/bridging/EthereumBSCBridge.sol": "IERC200"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/bridging/EthereumBSCBridge.sol": {
+			"keccak256": "0xe9782956e31716e433634d451651c42a7422d2153c25929558670ed12824ab3d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c9066c584029ca668a60daf4b705ec4c35a5eed4741e366274f118fbe7ea6e37",
+				"dweb:/ipfs/QmTtJ1yCSerR73kfnEkUvQn3FHeQEyNJBJRvF2porMLhmW"
+			]
+		}
+	},
+	"version": 1
+}

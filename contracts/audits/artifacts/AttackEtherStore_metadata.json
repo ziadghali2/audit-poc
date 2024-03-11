@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_etherStoreAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "collectEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "etherStore",
+				"outputs": [
+					{
+						"internalType": "contract EtherStore",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pwnEtherStore",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/audits/AttackEtherStore.sol": "AttackEtherStore"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/audits/AttackEtherStore.sol": {
+			"keccak256": "0xa3e5a67c2ea41cea9b79e879dc63989a39813ad2758c5f3d8c588a001cc3d983",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8e5a2b272b006a2d4788367f729500a1a2613a3f755545dd48a05d64051fb2bf",
+				"dweb:/ipfs/QmNsDCGRwu7DMGEodXCNhvvajm2V4Tbs41nk1Dnfwq7Sga"
+			]
+		},
+		"contracts/audits/EtherStore.sol": {
+			"keccak256": "0xc372da8b1e874a1338452d6d81838edb60505962443f3d273603a5947bba55a6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://56a8c7c7649c69ae9aa379f14641bf34270500e62678af1060faaa6719255e25",
+				"dweb:/ipfs/QmSvsV7ZsfHhx384gUdmr1SfeqBFQf8Gm6mMBXCXU8wdf3"
+			]
+		}
+	},
+	"version": 1
+}
